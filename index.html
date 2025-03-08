@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid px-0">
+        <div class="row align-items-center text-md-start text-center py-2 mx-0">
+            <div class="col-md-6 mb-2 mb-md-0 d-flex align-items-center justify-content-md-start justify-content-center">
+                <img src="images/Frame-1.png" alt="Phone" width="20">
+                <span class="ms-2 fw-bold text-dark">+01234 567 890</span>
+                <span class="mx-2">|</span>
+                <img src="images/Group-1.png" alt="Address" width="20">
+                <span class="ms-2 fw-bold text-dark">Jl. Patimura II No. 18, Denpasar</span>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-md-end justify-content-center">
+                <img src="images/Frame.png" alt="Calendar" width="20">
+                <span class="ms-2 fw-bold text-dark">Monday - Saturday: 9 am - 11.30 pm</span>
+            </div>
+        </div>
+    </div>
+    
+    
+   <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="images/logo 1.png" width="10%" height="7%">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Pages <img src="images/icons8-expand-arrow-24.png"> </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: black;">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="button">
+                    <a class="link" href="#" style="font-weight: bolder;" >Make an Appointment</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row hero-section">
+            <!-- Left Content -->
+            <div class="col-md-6 content">
+                <img src=""/>
+                <span style="color: #007bff; font-weight: bold;"><img src="images/hand.jpeg" class="one"> Hey! We Are Dental</span>
+                <h1>Helping You to<br> Bring Back Your <br>Happy Smile</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                     Aenean commodo ligula eget dolor.Aenean maasa.Cum socilis<br>
+                     natoque penatibus et magnis dis parturient.</p>
+            </div>
+    
+            <!-- Right Image -->
+            <div class="col-md-6 text-center position-relative">
+                <img src="images/dentist-with-toothbrush-on-denture1--714x1024.png.png" class="doctor-img img-fluid" alt="Doctor" width="300px" height="500px" style="background-color: rgb(212, 235, 227);">
+                
+                <!-- Review Box Over Image -->
+                <div class="review-box" id="two">
+                    <div class="review-images">
+                        <img src="images/div.elementor-widget-wrap-6.png" alt="User 1">
+                        <img src="images/div.elementor-widget-wrap-6.png" alt="User 2">
+                        <img src="images/div.elementor-widget-wrap-6.png" alt="User 3">
+                   
+                    <strong>180<span class="plus-symbol">+</span></strong></div>
+                    <span class="review-text">Satisfied Customers</span>
+                    <!-- <span class="stars">★★★★★</span>
+                    <span class="review-text">4.9/5 Reviews</span> -->
+                    <span class="stars">★★★★★ <span class="review-score">4.9/5 Reviews</span></span>
+    
+                </div>
+            </div>
+        </div>
+    
+        <!-- Appointment Form -->
+        <div class="appointment-form" id="three">
+            <form id="bookingForm">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label><i class="fas fa-envelope"></i><img src="images/Group.png" width="15"/> Email Address</label>
+                        <div class="input-group">
+                            <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label><i class="fas fa-phone" style="font-weight: bolder;"></i><img src="images/Frame-1.png"/>  Phone Number</label>
+                        <div class="input-group">
+                            <input type="text" id="phone" class="form-control" placeholder="Your Phone" required>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <div class="w-100">
+                            <label><i class="fas fa-calendar"></i> <img src="images/Frame.png"/>  Date</label>
+                            <div class="input-group">
+                                <input type="date" id="date" class="form-control" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="book-now ms-2">
+                            <i class="fas fa-check"></i><img src="./images/one.png"/>  Book Now
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+ <div class="container service-section" id="four">
+    <div class="row">
+        <!-- Service 1 -->
+        <div class="col-md-4">
+            <div class="service-box">
+                <img src="images/div.icon-1.png" alt="Affordable Price">
+                <h4>Affordable Price</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec.</p>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-md-4">
+            <div class="service-box">
+                <img src="images/tools-150x150.png.png" alt="Professional Dentist">
+                <h4>Professional Dentist</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec.</p>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-md-4">
+            <div class="service-box">
+                <img src="images/div.icon.png" alt="Satisfactory Service">
+                <h4>Satisfactory Service</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus nec.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="the" class="mx-auto">
+        <div class="the1">
+            <img src="./images/female-dentist-present-2-1.png.png" alt="" height="600px" width="400px" id="the2">
+            <img src="./images/dentist-with-dental-tools-mirror-and-probe-checking-up-patient-teeth-at-dental-clinic-office-1-800x664.jpg.png" alt="" id="img1" height="100px">
+            <img src="./images/young-woman-getting-dental-treatment-dental-clinic--800x533.jpg.png" alt="" height="100px" id="img2">
+        </div>
+        <!-- Hero Section -->
+    <div class="container">
+        <div class="row hero-section">
+            <!-- Left Content - Text (Now Moved to Right) -->
+            <div class="col-md-6 hero-text" id="five">
+                <div style="border:  2px solid lightgray; padding: 10px; display: inline-block; border-radius: 5px; color: #007bff; font-weight: bold;">
+                    More About Us
+                </div>
+                <h2><br>The Best Dental Clinic<br> That You Can Trust</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                     Aenean commodo ligula eget dolor. Aenean massa.Cum soclis<br>
+                    natoque penatibus et magnis dis parturient.</p>
+                <p>Nullam quis ante.Etiam sit amet orci eget eros faucibus<br>
+                tincidunt.Duis leo.Sed fringilla mauris sit amet nibh.</p>
+
+                <ul>
+                    <li><img src="images/click.jpeg" alt=""> Modern Equipment</li>
+                    <li><img src="images/click.jpeg" alt=""> Easy Online Appointment</li>
+                    <li><img src="images/click.jpeg" alt=""> Comfortable Clinic</li>
+                    <li><img src="images/click.jpeg" alt=""> Always Monitored</li>
+                </ul>
+
+                <button class="btn btn-primary">Learn More</button>
+                <button class="btn btn-secondary">Make an Appointment</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    
+    
+    <div class="container-01" id="six">
+        <div class="blog">
+            <button class="text-primary">our Blog</button>
+            <p>Blogs &</p>
+            <div class="lo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, corrupti? <br>Lorem ipsum dolor
+                    onsectetur adipisicing elit. A, corrupti?</p>
+            </div>
+        </div>
+        <div class="main-product">
+            <div class="products">
+                <img src="./images/div.jkit-thumb.png" alt="">
+                <div class="title">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="title-01">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, exercitationem quae aut quasi
+                        maxime
+                        non quibusdam temporibus sunt accusantium animi tempora quis et debitis natus.</p>
+                </div>
+                <button class="btn btn-primary">Read More<i class="fa-solid fa-arrow-right-long" style="color: white;"></button></i>            </div>
+            <div class="products">
+                <img src="./images/div.jkit-thumb-1.png" alt="">
+                <div class="title">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="title-01">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, exercitationem quae aut quasi
+                        maxime
+                        non quibusdam temporibus sunt accusantium animi tempora quis et debitis natus.</p>
+                </div>
+                <button class="btn btn-primary">Read More<i class="fa-solid fa-arrow-right-long" style="color: white;"></button></i>
+            </div>
+            <div class="products">
+                <img src="./images/div.thumbnail-container.jpg" alt="">
+                <div class="title">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="title-01">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, exercitationem quae aut quasi
+                        maxime
+                        non quibusdam temporibus sunt accusantium animi tempora quis et debitis natus.</p>
+                </div>
+                <button class="btn btn-primary">Read More<i class="fa-solid fa-arrow-right-long" style="color: white;"></button></i>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container" id="seven">
+        <div class="row consultation-section">
+            <!-- Left Content -->
+            <div class="col-md-5 consultation-text">
+                <span style="color: #007bff; font-weight: bold;color: #007bff; font-weight: bold;border:2px white;border: 2px solid lightgray; padding: 10px; display: inline-block; border-radius: 5px; color: #007bff; font-weight: bold;">Why Choose Us</span>
+                <h2>Helping Your<br> Dental Problems</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Aenean commodo ligula eget dolor. Aenean massa.Cum<br>
+                    sociis natoque penatibus et magnis dis parturient.</p>
+    
+                <!-- Progress Bar 1 -->
+                <div class="progress-label">
+                    <span>Dental and Mouth Care</span>
+                    <span>95%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+    
+                <!-- Progress Bar 2 -->
+                <div class="progress-label">
+                    <span>Cosmetic Treatment</span>
+                    <span>87%</span>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 87%;" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+    
+            <!-- Center Image -->
+            <div class="col-md-4 consultation-image">
+                <img src="images/female-medical-doctor-669x1024.png.png" alt="Doctor Image">
+            </div>
+    
+            <!-- Right Contact Box -->
+            <div class="col-md-3 contact-box">
+                <h4>Don't Hesitate to Do Consultation</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                     adipiscing elit.Ut elt tellus,luctuc nec.</p>
+    
+                <div class="schedule">Monday - Friday: 8AM - 10PM</div>
+                <div class="schedule">Saturday: 8AM - 10PM</div>
+                <div class="schedule">Sunday: 8AM - 10PM</div>
+    
+                <a href="tel:+1234567890" class="call-button" style="justify-content: center;">Call +01234 567 890</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+<div class="services-section" id="one1">
+    <h2 class="services-title">Our Services</h2>
+    <div class="services-container">
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-3.png" alt="Service 1" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-tooth"></i>
+                <h3>Teeth Checkup</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-4.png" alt="Service 3" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-user-md"></i>
+                <h3>Teeth Whitening</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-6.png" alt="Service 3" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-user-md"></i>
+                <h3>Dental Braces</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-2.png" alt="Service 4" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-stethoscope"></i>
+                <h3>Teeth Implants</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-3.png" alt="Service 5" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-x-ray"></i>
+                <h3>Dental Filling</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+
+        <div class="service-item">
+            <img src="images/div.elementor-widget-wrap-1.png" alt="Service 6" class="service-image">
+            <div class="service-info">
+                <i class="fa fa-syringe"></i>
+                <h3>Cosmetic</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h6> Learn More<i class="fa-solid fa-arrow-right"></i></h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer" id="footer">
+    <div class="footer-container">
+        <!-- About Section -->
+        <div class="footer-section about">
+            <h2><span class="highlight">Dental</span> About Us</h2>
+            <p>We care for your smile with expert dental solutions.</p>
+        </div>
+
+        <!-- Helpful Links -->
+        <div class="footer-section helpful-links">
+            <h2>Helpful Links</h2>
+            <ul>
+                <li><a href="#">Primary Policy</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+
+        <!-- Support Section -->
+        <div class="footer-section support">
+            <h2>Support</h2>
+            <ul>
+                <li><a href="#">Primary Policy</a></li>
+                <li><a href="#">Supports</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="footer-section contact">
+            <h2>Contact Us</h2>
+
+          <!-- Email Subscription Form with Button Inside -->
+        <div class="email-subscribe">
+            <input type="email" placeholder="Your Email Address" class="email-input">
+            <button class="signup-btn">Sign Up</button>
+        </div>
+
+        <!-- Address & Phone Number -->
+        <div class="contact-info">
+            <p><i class="fa fa-map-marker"></i> JI. Patimura || No. 18, Denpaser</p>
+            <p><i class="fa fa-phone"></i> +01234 567 890</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p>&copy; 2025 DentalCare | All Rights Reserved</p>
+    </div>
+</footer>
+    <!-- JavaScript for Form Validation -->
+<script>
+    document.getElementById("bookingForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent page refresh
+
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("phone").value;
+        let date = document.getElementById("date").value;
+
+        if (email === "" || phone === "" || date === "") {
+            alert("Please fill out all fields.");
+            return;
+        }
+
+        alert("Appointment Booked Successfully!");
+    });
+</script>
+</body>
+</html>

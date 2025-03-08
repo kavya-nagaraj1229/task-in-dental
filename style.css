@@ -1,0 +1,927 @@
+/* navbar css */
+.contact-info {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0; /* Removes extra spacing */
+}
+
+
+.navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+
+.navbar-nav .nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: black; 
+    transition: color 0.3s ease-in-out;
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #308ae9;;
+}
+
+        .button {
+            background-color: blue;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+        }
+        .button .link {
+            text-decoration: none;
+            color: white;
+        }
+        .nav-item .nav-link:hover {
+            color: blue !important;
+        }
+    
+        /* Adjust hero section spacing */
+.hero-section {
+position: relative;
+padding: 50px 0;
+}
+
+/* Adjust doctor image size */
+.doctor-img {
+max-width: 100%;
+height: auto;
+object-fit: cover;
+}
+
+/* Positioning the review box over the image */
+.review-box {
+position: absolute;
+bottom: 10px;
+left: 10px;
+background: white;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+width: 180px;
+height: 120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.review-images {
+display: flex;
+justify-content: center;
+margin-bottom: 5px;
+}
+
+.review-images img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-right: 3px;
+border: 2px solid white;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.review-box strong {
+font-size: 20px;
+display: flex;
+align-items: center;
+margin-top: 3px;
+}
+
+/* Styling the + symbol */
+.plus-symbol {
+background: #007bff;
+color: white;
+border-radius: 50%;
+width: 20px;
+height: 20px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+margin-left: 5px;
+font-size: 14px;
+}
+
+
+.stars {
+color: gold;
+font-size: 14px;
+font-weight: bold;
+}
+
+.review-score {
+color: black;
+font-size: 14px;
+font-weight: normal;
+margin-left: 5px; /* Adds some spacing */
+}
+
+
+.review-text {
+font-size: 15px;
+margin-top: 3px;
+}
+
+/* Adjust appointment form positioning */
+.appointment-form {
+margin-top: -50px; /* Moves form slightly up */
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 10;
+margin-right: 180px;
+}
+.book-now {
+background: #007bff;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+white-space: nowrap; /* Prevent text from wrapping */
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px; /* Adds space between text and icon */
+}
+
+.book-now:hover {
+background: #0056b3;
+}
+
+#two{
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+}
+#three{
+    position: relative;
+    bottom: 220px;
+}
+
+/* Service Section */
+.service-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.service-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+}
+
+.service-box img {
+    width: 80px; /* Adjust image size */
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.service-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 14px;
+    color:black;
+}
+
+#four{
+    position: relative;
+    bottom: 230px;
+}
+.the{
+    position: relative;
+    bottom: 230px; 
+}
+#img1{
+    border-radius: 50%;
+    position: relative;
+    right: 300px;
+    bottom: 140px;
+}
+#img2{
+    position: relative;
+    right: 80px;
+    top: 180px;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.hero-text {
+    max-width: 550px;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b2a59;
+}
+
+.hero-text p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.hero-text ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-text ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.hero-text ul li i {
+    color: #007bff;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #f8f9fa;
+    color: #007bff;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Doctor Image */
+.hero-image {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Circular Images */
+.circle-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.circle-img-1 {
+    top: 15%;
+    left: -15%;
+}
+
+.circle-img-2 {
+    bottom: 10%;
+    right: -15%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column-reverse; /* Reverse on smaller screens */
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+    }
+
+    .circle-img-1, .circle-img-2 {
+        display: none;
+    }
+}
+
+#five{
+   position: relative;
+   left: 600px;
+   bottom: 600px;
+}
+#the2{
+    position: relative;
+   left: 100px;
+   
+}
+
+/*blog*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog p{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.lo p{
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.blog button{
+    margin-left: 55%;
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(160, 159, 159,0.5);
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+}
+
+.products{
+
+    width: 270px;
+}
+
+.products img{
+    height: 200px;
+}
+
+.products .title p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.products .title-01{
+    font-size: 13px;
+} 
+
+.products button{
+    height: 45px;
+    width: 155px;
+    border-radius: 5px;
+}
+.products button i{
+    padding-left: 10px;
+}
+
+.main-product{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+#six{
+    position: relative;
+    bottom: 750px;
+}
+
+@media screen and (max-width: 768px) {
+    .the1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Resize images in smaller screens */
+    .the1 img {
+        width: 100%;
+        max-width: 300px; /* Adjust image sizes on mobile */
+    }
+
+    /* Hero Section Layout */
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Text Adjustments */
+    .hero-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .hero-text h2 {
+        font-size: 24px; /* Smaller heading on mobile */
+    }
+
+    .hero-text ul {
+        text-align: left;
+    }
+
+    .hero-text li {
+        font-size: 14px; /* Smaller font for mobile */
+    }
+
+    .hero-text button {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    /* Adjust spacing for buttons */
+    .hero-text button:last-child {
+        margin-top: 10px; /* Adjust spacing between buttons */
+    }
+}
+
+
+
+
+
+
+.consultation-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+/* Left Content */
+.consultation-text {
+    max-width: 500px;
+}
+
+.consultation-text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0b2a59;
+}
+
+.consultation-text p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+}
+
+.progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Doctor Image */
+.consultation-image {
+    position: relative;
+    text-align: center;
+}
+
+.consultation-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Right Box (Contact Info) */
+.contact-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align:start;
+    max-width: 300px;
+}
+
+.contact-box h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.contact-box .schedule {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0b2a59;
+    margin-bottom: 5px;
+}
+
+.contact-box .call-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contact-box .call-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .consultation-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .consultation-text {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .consultation-image {
+        margin-top: 30px;
+    }
+
+    .contact-box {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 90%;
+    }
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Container for Services */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Individual Service Item */
+.service-item {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Hover effect with larger shadow */
+}
+
+/* Image in each Service */
+.service-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Container for Services */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* Services Section */
+.services-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.services-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Container for Services */
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Individual Service Item */
+.service-item {
+    width: calc(33.33% - 20px); /* Updated for better equal width across 3 columns */
+    
+    position: relative;
+    transition: box-shadow 0.3s ease;
+    margin-bottom: 20px; /* Added to prevent overlap */
+}
+
+/* Image in each Service */
+.service-image {
+    width: 90%;
+    height: 300px;
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+    z-index: 1; /* Optional: Adds rounded corners to the image */
+}
+
+/* Service Info */
+.service-info {
+    padding: 20px;
+    position: absolute; /* Fixed to allow overlay on top of the image */
+    bottom: 1px;/* Places the info closer to the bottom */
+    height: 180px;
+    width: 200px;
+    right: 180px;
+    z-index: 1;
+    background-color: #f9f9f9; /* Semi-transparent background / / Optional: Rounded corners for the info box */
+}
+
+.service-info i {
+    font-size: 1.2rem;
+    color: #2196F3;
+    position: relative;
+    right: 60px;
+    top: 5px;
+    
+}
+
+.service-info h3 {
+    font-size: 1.2rem;
+    color: black;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    
+}
+
+.service-info p {
+    font-size:13px;
+    color: black;
+    position: relative;
+    bottom: 20px;
+}
+.service-info h6 {
+    font-size:13px;
+    color:blue;
+    position: relative;
+    bottom: 30px;
+}
+.service-info h6 i{
+    color: black;
+    left: 10px;
+    position: relative;
+}
+
+
+/* Responsive Design for Tablets */
+@media (max-width: 768px) {
+    .service-item {
+        width: calc(50% - 20px); /* Stack two items per row on smaller screens */
+    }
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 480px) {
+    .service-item {
+        width: 100%; /* Stack all items on mobile */
+    }
+}
+
+#seven{
+    position: relative;
+    bottom: 670px;
+} 
+#one1{
+    position: relative;
+    bottom: 670px;
+}
+
+
+#footer{
+    position: relative;
+    bottom: 670px;
+}
+/* Footer Styling */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #00c4cc;
+}
+
+/* Highlight "Dental" in About Us */
+.highlight {
+    font-size: 28px;
+    font-weight: bold;
+    color: #00c4cc;
+}
+
+/* Small "Always Smile" Text */
+.tagline {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Footer Links */
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Email Subscription Box */
+.email-subscribe {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.email-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.signup-btn {
+    background-color: #00c4cc;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.signup-btn:hover {
+    background-color: #008a99;
+}
+
+/* Social Media Icons */
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #00c4cc;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+
+    .email-subscribe {
+        margin: 0 auto;
+    }
+}
